@@ -2,3 +2,7 @@ galletas
 fideos
 jabon
 gelatina
+bananas
+manzanas
+paltas 
+lechugas
