@@ -1,0 +1,26 @@
+p{
+    color: blue;
+}
+
+
+
+.destacados{
+    font-size:20px;
+    font-weight: bold;
+    font-style:italic;
+}
+
+#rojo{
+    width: 200px;
+    height: 200px;
+    background-color:red;
+    border: 20px solid black;
+
+
+}
+
+#azul{
+    width: 50px;
+    height: 100px;
+    background-color: blue;
+}
