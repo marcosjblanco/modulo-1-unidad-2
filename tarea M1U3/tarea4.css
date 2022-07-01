@@ -26,3 +26,20 @@ h3{
      
 }
 
+img{
+    text-align: center;
+     border-radius: 500px 80px 500px;
+     width: 700px;
+     margin-top: 20px;
+     margin-bottom: 20px;
+     margin-left: 900px;
+     margin-right: 500px;
+    
+}
+
+.destacados{
+   font-size: 80px;
+}
+
+
+
