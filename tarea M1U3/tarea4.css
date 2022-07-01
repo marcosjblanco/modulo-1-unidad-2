@@ -13,27 +13,39 @@ h1{
   text-align: center;
   font-weight: bolder;
   text-decoration: underline;
+  text-shadow: -1px 14px 7px rgba(0,0,0,0.6);
+  
   
   
   
 }
 
 h3{
-    background-color: aqua;
-     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #00daff;
+background: linear-gradient(63deg,#00daff 0%, #00ff00 80%);
+background: -webkit-linear-gradient(63deg,#00daff 0%, #00ff00 80%);
+background: -moz-linear-gradient(63deg,#00daff 0%, #00ff00 80%);
+font-family: 'Lobster', cursive;
      text-align: center;
      font-size: 50px;
+     
      
 }
 
 img{
     text-align: center;
-     border-radius: 500px 80px 500px;
+    border-radius: 105px 105px 200px 200px;
+    -webkit-border-radius: 105px 105px 200px 200px;
+    -moz-border-radius: 105px 105px 200px 200px;
+    border: 8px solid #ff6550;
      width: 700px;
      margin-top: 20px;
      margin-bottom: 20px;
      margin-left: 900px;
      margin-right: 500px;
+     box-shadow: 73px 41px 39px -11px rgba(0,0,0,0.54);
+-webkit-box-shadow: 73px 41px 39px -11px rgba(0,0,0,0.54);
+-moz-box-shadow: 73px 41px 39px -11px rgba(0,0,0,0.54);
     
 }
 
