@@ -1,9 +1,10 @@
 .contenedor1{
 
     background-color: white;
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     flex-direction: row-reverse;
+    align-content: center;
     
     
 
@@ -15,7 +16,7 @@
     background-color: blue;
     width: 100px;
     height: 100px;
-    margin: 10px;
+    
     font-size: 10px;
     display: flex;
     justify-content: center;
@@ -26,7 +27,7 @@
         background-color:red;
         width: 100px;
         height: 100px;
-        margin: 10px;
+        
         font-size: 10px;
         display: flex;
         justify-content: center;
@@ -37,7 +38,7 @@
     background-color:yellow;
     width: 100px;
     height: 100px;
-    margin: 10px;
+  
     font-size: 10px;
     display: flex;
     justify-content: center;
