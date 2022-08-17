@@ -1,0 +1,231 @@
+/*font-family: 'Square Peg', cursive;
+*/
+
+/*.color1 { #e21b5a };
+.color2 { #9e0c39 };
+.color3 { #333333 };
+.color4 { #fbffe3 };
+.color5 { #83a300 };
+*/
+
+
+/*font-family: 'Black Ops One', cursive;
+font-family: 'Square Peg', cursive;*/
+
+body{
+    font-family: 'Gurajada', serif;
+
+    font-size: 50px;
+    line-height: 40px;
+}
+
+header{
+
+    background-color:#9e0c39;
+    padding: 0px;
+    width: 1350px;
+    height: 200px;
+    
+    
+}
+.paisaje img{
+    width: 1200px;
+}
+
+
+
+
+
+    
+    
+
+
+header h1{
+
+    color: white;
+    font-size: 100px;
+    font-weight: 400;
+    font-style: italic;
+    display: inline-block;
+    position:relative ;
+    bottom: 100px;
+}
+   
+
+
+nav{
+
+    background-color:    #333333;
+    margin-bottom: 20px;
+}
+
+nav ul{
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li{
+
+    flex-grow: 1;
+    
+}
+
+nav ul li a{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    padding: 3px 6px;
+    display: block;
+    text-align: center;
+}
+
+nav ul li a:hover{
+
+    background-color: #5f5353;
+}
+
+footer{
+    
+    
+    background-color: #c59f9f;
+    clear: both;
+    color: #521b1b;
+    text-align: center;
+    padding: 0px 0px;
+    margin margin-top: 0px;
+    
+}
+
+
+
+
+.holder{
+
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.paisaje{
+    text-align: center;
+    /*width: 1200px;
+    height: 400px;*/
+}
+   
+
+h2{
+    text-align: center;
+
+    font-family: 'Oswald', sans-serif;
+    font-weight: 800;
+  
+    font-size: 30px;
+    
+   
+}
+
+p{
+    font-family: 'Tiro Gurmukhi', serif;
+    font-size: 20px;
+}
+
+.bienvenidos{
+
+   text-align: center;
+    width: 90%;
+    
+    
+   
+}
+
+.galeria img{
+    width: 25%;
+    border: 1px solid rgb(221, 201, 201);
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    margin-right: 2%;
+}
+
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+
+.contacto{
+    font-family: 'Black Ops One', cursive;
+
+   
+}
+
+.servicios{
+    font-family: 'Tiro Gurmukhi', serif;
+    font-size: 20px;
+    text-decoration: underline;
+
+}
+/*inicio contacto*/
+
+.holder{
+    /*display: flex;
+    gap: 24px;*/
+
+}
+
+.holder div{
+    width: 50%;
+}
+
+.holder p{
+    display: flex;
+
+}
+.holder p label{
+    min-width: 80px;
+    display: flex;
+    align-items: center;
+   
+    
+}
+.holder p input,
+.holder p textarea{
+    width: 100%;
+    background: #ddd;
+    border-radius: 5px;
+    border: 1px solid #999;
+    font-size: 14px;
+    padding: 6px 10px ;
+
+}
+ .holder textarea{
+    resize: none;
+    height: 150px;
+      
+ }
+
+ .holder input[type="submit"]{
+    background: #6da9ed;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    color: white;
+    font size: 16px;
+    padding: 6px 20px;
+    position: relative;
+    /*left:5rem;*/
+    cursor: pointer;
+
+}
+
+
+
+
+
+
+
+
+
+
+/*fin cotacto*/
