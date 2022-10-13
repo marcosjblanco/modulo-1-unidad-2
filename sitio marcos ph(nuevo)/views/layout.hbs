@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MARCOSBLANCOPH</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Parisienne&family=Patrick+Hand&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="/stylesheets/normalize.css">
+    <link rel="stylesheet" href="/stylesheets/marcosblancoph.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="holder">
+            <img src="images/marcos blanco1.png" alt="marcosblancoph">
+
+        </div>
+
+    </header>
+    <nav>
+
+        <ul class="holder">
+            <li><a class="{{#if isHome}}activo{{/if}}" href="/">Home</a></li>
+            <li><a class="{{#if isGaleria}}activo{{/if}}" href="/galeria">Galeria</a></li>
+            <li><a class="{{#if isServicio}}activo{{/if}}" href="/servicio">Servicios</a></li>
+            <li><a class="{{#if isContacto}}activo{{/if}}" href="/contacto">Contacto</a></li>
+
+        </ul>
+    </nav>
+    {{{body}}}
+  </main>
+<footer class="diseño">
+    
+
+
+  <p> Diseñado por Marcos Blanco- &copy;2022</p>
+</footer>
+
+
+
+</body>
+
+</html> 
