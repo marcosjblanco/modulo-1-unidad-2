@@ -1,20 +1,9 @@
-<main>
-        <h2>
-            Tenemos las siguientes propuestas para ofrecerte:
-        </h2>
-    <p>
-        <ul class="servicios">
-            
-            <li>fotografia Publicitaria</li>
-            <li>fotografia Retrato</li>
-            <li>fotografia de Producto</li>
-            <li>fotografia Surrealista</li>
-            <li>fotografia de Paisajes</li>
-
-        </ul>
-    </p>
-      
-        
-
-
-    </main>
+<h2>Servicios</h2>
+{{#each novedades}}
+<div class="Servicios">
+    <h3>{{titulo}}</h3>
+    <h4>{{subtitulo}}</h4>
+    <p>{{cuerpo}}</p>
+    <hr>
+</div>
+{{/each}}
