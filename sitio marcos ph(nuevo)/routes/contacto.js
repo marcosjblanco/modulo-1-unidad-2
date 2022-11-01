@@ -1,6 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var nodemailer = require('nodemailer');
+var contactoModel = require('../models/contactoModel');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
@@ -38,7 +39,8 @@ var transporter = nodemailer.createTransport({
 
 
 
-var info = await transporter.sendMail(obj);
+var info = await transporter.sendMail(obj);  //envio
+var contacto = await contactoModel.insertContacto(req.body)  //guarde en la bd
 
   res.render('contacto', {
   isContacto: true,
